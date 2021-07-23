@@ -3,23 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5790ED97E98274737F381AA /* Pods_NBAApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29EBD51145662F819347F20 /* Pods_NBAApp.framework */; };
 		C902E181269E204700679C15 /* NBAAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E180269E204700679C15 /* NBAAppApp.swift */; };
-		C902E183269E204700679C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E182269E204700679C15 /* ContentView.swift */; };
 		C902E185269E204800679C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C902E184269E204800679C15 /* Assets.xcassets */; };
 		C902E188269E204800679C15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C902E187269E204800679C15 /* Preview Assets.xcassets */; };
+		C902E195269E238100679C15 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E194269E238100679C15 /* Models.swift */; };
+		C902E198269E23A400679C15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E197269E23A400679C15 /* Constants.swift */; };
+		C902E19B269E23BA00679C15 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E19A269E23BA00679C15 /* ContentModel.swift */; };
+		C902E1AB269E23C200679C15 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E19E269E23C200679C15 /* SettingsView.swift */; };
+		C902E1AC269E23C200679C15 /* NavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E19F269E23C200679C15 /* NavTitle.swift */; };
+		C902E1AD269E23C200679C15 /* StandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A1269E23C200679C15 /* StandingsView.swift */; };
+		C902E1AE269E23C200679C15 /* StandingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A2269E23C200679C15 /* StandingsRowView.swift */; };
+		C902E1AF269E23C200679C15 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A4269E23C200679C15 /* ScoresView.swift */; };
+		C902E1B0269E23C200679C15 /* ScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A5269E23C200679C15 /* ScoreCard.swift */; };
+		C902E1B1269E23C200679C15 /* ScoreRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A6269E23C200679C15 /* ScoreRowView.swift */; };
+		C902E1B2269E23C200679C15 /* ConferencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A7269E23C200679C15 /* ConferencePicker.swift */; };
+		C902E1B3269E23C200679C15 /* SVGLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A8269E23C200679C15 /* SVGLogo.swift */; };
+		C902E1B4269E23C200679C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1A9269E23C200679C15 /* ContentView.swift */; };
+		C902E1B5269E23C200679C15 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902E1AA269E23C200679C15 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6ED381698721C0CBE213393C /* Pods-NBAApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBAApp.debug.xcconfig"; path = "Target Support Files/Pods-NBAApp/Pods-NBAApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C902E17D269E204700679C15 /* NBAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C902E180269E204700679C15 /* NBAAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAAppApp.swift; sourceTree = "<group>"; };
-		C902E182269E204700679C15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C902E184269E204800679C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C902E187269E204800679C15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C902E189269E204800679C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C902E194269E238100679C15 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C902E197269E23A400679C15 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C902E19A269E23BA00679C15 /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		C902E19E269E23C200679C15 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C902E19F269E23C200679C15 /* NavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitle.swift; sourceTree = "<group>"; };
+		C902E1A1269E23C200679C15 /* StandingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsView.swift; sourceTree = "<group>"; };
+		C902E1A2269E23C200679C15 /* StandingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsRowView.swift; sourceTree = "<group>"; };
+		C902E1A4269E23C200679C15 /* ScoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		C902E1A5269E23C200679C15 /* ScoreCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCard.swift; sourceTree = "<group>"; };
+		C902E1A6269E23C200679C15 /* ScoreRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreRowView.swift; sourceTree = "<group>"; };
+		C902E1A7269E23C200679C15 /* ConferencePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferencePicker.swift; sourceTree = "<group>"; };
+		C902E1A8269E23C200679C15 /* SVGLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGLogo.swift; sourceTree = "<group>"; };
+		C902E1A9269E23C200679C15 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C902E1AA269E23C200679C15 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EC51C47AEEED66D3DBB56E93 /* Pods-NBAApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBAApp.release.xcconfig"; path = "Target Support Files/Pods-NBAApp/Pods-NBAApp.release.xcconfig"; sourceTree = "<group>"; };
+		F29EBD51145662F819347F20 /* Pods_NBAApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBAApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5790ED97E98274737F381AA /* Pods_NBAApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A61CA0F0DF40F48BF12A5729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29EBD51145662F819347F20 /* Pods_NBAApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8AA628A61E8C2A9D273A57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ED381698721C0CBE213393C /* Pods-NBAApp.debug.xcconfig */,
+				EC51C47AEEED66D3DBB56E93 /* Pods-NBAApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C902E174269E204600679C15 = {
 			isa = PBXGroup;
 			children = (
 				C902E17F269E204700679C15 /* NBAApp */,
 				C902E17E269E204700679C15 /* Products */,
+				BD8AA628A61E8C2A9D273A57 /* Pods */,
+				A61CA0F0DF40F48BF12A5729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +102,10 @@
 		C902E17F269E204700679C15 /* NBAApp */ = {
 			isa = PBXGroup;
 			children = (
-				C902E180269E204700679C15 /* NBAAppApp.swift */,
-				C902E182269E204700679C15 /* ContentView.swift */,
+				C902E19C269E23C200679C15 /* Views */,
+				C902E199269E23BA00679C15 /* ViewModels */,
+				C902E193269E238100679C15 /* Models */,
+				C902E196269E23A400679C15 /* Helper */,
 				C902E184269E204800679C15 /* Assets.xcassets */,
 				C902E189269E204800679C15 /* Info.plist */,
 				C902E186269E204800679C15 /* Preview Content */,
@@ -69,6 +121,73 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C902E193269E238100679C15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C902E194269E238100679C15 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C902E196269E23A400679C15 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C902E197269E23A400679C15 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C902E199269E23BA00679C15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C902E19A269E23BA00679C15 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C902E19C269E23C200679C15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C902E180269E204700679C15 /* NBAAppApp.swift */,
+				C902E19D269E23C200679C15 /* Settings */,
+				C902E1A0269E23C200679C15 /* Standings */,
+				C902E1A3269E23C200679C15 /* Scores */,
+				C902E1A7269E23C200679C15 /* ConferencePicker.swift */,
+				C902E19F269E23C200679C15 /* NavTitle.swift */,
+				C902E1A8269E23C200679C15 /* SVGLogo.swift */,
+				C902E1A9269E23C200679C15 /* ContentView.swift */,
+				C902E1AA269E23C200679C15 /* Color.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C902E19D269E23C200679C15 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C902E19E269E23C200679C15 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C902E1A0269E23C200679C15 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				C902E1A1269E23C200679C15 /* StandingsView.swift */,
+				C902E1A2269E23C200679C15 /* StandingsRowView.swift */,
+			);
+			path = Standings;
+			sourceTree = "<group>";
+		};
+		C902E1A3269E23C200679C15 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				C902E1A4269E23C200679C15 /* ScoresView.swift */,
+				C902E1A6269E23C200679C15 /* ScoreRowView.swift */,
+				C902E1A5269E23C200679C15 /* ScoreCard.swift */,
+			);
+			path = Scores;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C902E18C269E204800679C15 /* Build configuration list for PBXNativeTarget "NBAApp" */;
 			buildPhases = (
+				A1604DCB1476B4BD32060673 /* [CP] Check Pods Manifest.lock */,
 				C902E179269E204700679C15 /* Sources */,
 				C902E17A269E204700679C15 /* Frameworks */,
 				C902E17B269E204700679C15 /* Resources */,
+				AD5C680AD90756BCBC1A1114 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +254,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1604DCB1476B4BD32060673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NBAApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5C680AD90756BCBC1A1114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NBAApp/Pods-NBAApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NBAApp/Pods-NBAApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBAApp/Pods-NBAApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C902E179269E204700679C15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C902E183269E204700679C15 /* ContentView.swift in Sources */,
+				C902E1B1269E23C200679C15 /* ScoreRowView.swift in Sources */,
+				C902E1B3269E23C200679C15 /* SVGLogo.swift in Sources */,
+				C902E195269E238100679C15 /* Models.swift in Sources */,
+				C902E19B269E23BA00679C15 /* ContentModel.swift in Sources */,
+				C902E1B5269E23C200679C15 /* Color.swift in Sources */,
+				C902E1AF269E23C200679C15 /* ScoresView.swift in Sources */,
+				C902E1AB269E23C200679C15 /* SettingsView.swift in Sources */,
+				C902E1AD269E23C200679C15 /* StandingsView.swift in Sources */,
 				C902E181269E204700679C15 /* NBAAppApp.swift in Sources */,
+				C902E1AC269E23C200679C15 /* NavTitle.swift in Sources */,
+				C902E1B0269E23C200679C15 /* ScoreCard.swift in Sources */,
+				C902E1B4269E23C200679C15 /* ContentView.swift in Sources */,
+				C902E1B2269E23C200679C15 /* ConferencePicker.swift in Sources */,
+				C902E1AE269E23C200679C15 /* StandingsRowView.swift in Sources */,
+				C902E198269E23A400679C15 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +440,13 @@
 		};
 		C902E18D269E204800679C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED381698721C0CBE213393C /* Pods-NBAApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NBAApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 44NC4Q8DZ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NBAApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -285,11 +463,13 @@
 		};
 		C902E18E269E204800679C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC51C47AEEED66D3DBB56E93 /* Pods-NBAApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NBAApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 44NC4Q8DZ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NBAApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
